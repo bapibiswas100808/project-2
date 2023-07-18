@@ -14,7 +14,7 @@
   position: absolute;
   z-index: 999;
   width: 64%;
-  top: 300px;
+  top: 250px;
 }
 .hero-text-heading::after {
   position: absolute;
@@ -22,13 +22,13 @@
   height: 2px;
   width: 100px;
   background-color: #ffffff;
-  bottom: -45px;
+  bottom: -35px;
   left: 0;
 }
 .hero-para {
   position: absolute;
   width: 42%;
-  top: 700px;
+  top: 95%;
   z-index: 999;
 }
 

@@ -1,0 +1,21 @@
+.timer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  /* align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  height: 100%; */
+}
+.timer-container {
+  bottom: -350px;
+  position: absolute;
+}
+
+@media (max-width: 768px) {
+  .timer-container {
+    /* bottom: -400px; */
+    position: static;
+  }
+}

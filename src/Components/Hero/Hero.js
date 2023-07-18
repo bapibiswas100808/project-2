@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import "./Hero.css";
 import Header from "../Header/Header";
 import heroImage from "../../../src/Images/hero-gif.gif";
+import Countdown from "../Countdown/Countdown";
 
 const Hero = () => {
   return (
@@ -31,6 +32,7 @@ const Hero = () => {
                   fashion world and web3. Each NFT allows for the physical
                   forging of the limited edition ‘NAYOM1 Blade’ heels.
                 </p>
+                <Countdown />
               </div>
             </Col>
             <Col lg={7}>
