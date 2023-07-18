@@ -1,0 +1,50 @@
+.hero-area {
+  background-image: url(../../../src/Images/heroBackground.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-element-image {
+  z-index: 1;
+  position: relative;
+}
+.hero-text-heading {
+  position: absolute;
+  z-index: 999;
+  width: 64%;
+  top: 300px;
+}
+.hero-text-heading::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100px;
+  background-color: #ffffff;
+  bottom: -45px;
+  left: 0;
+}
+.hero-para {
+  position: absolute;
+  width: 42%;
+  top: 700px;
+  z-index: 999;
+}
+
+@media (max-width: 768px) {
+  .hero-area {
+    text-align: center;
+  }
+  .hero-text-heading {
+    position: static;
+    width: 100%;
+  }
+  .hero-para {
+    position: static;
+    width: 100%;
+  }
+  .hero-text-heading::after {
+    height: 0px;
+  }
+}

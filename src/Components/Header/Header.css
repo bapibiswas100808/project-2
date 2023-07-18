@@ -1,0 +1,23 @@
+.header-area {
+  padding: 80px 0;
+}
+.nav-logo {
+  text-align: end;
+}
+.nav-logo img {
+  height: 37px;
+  width: 76px;
+}
+.header-icon {
+  text-align: end;
+}
+
+@media (max-width: 768px) {
+  .nav-logo {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .header-icon {
+    text-align: center;
+  }
+}
