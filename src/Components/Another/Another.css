@@ -1,0 +1,17 @@
+.another-area {
+  background-image: url(../../Images/projectback.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 0 0;
+}
+
+@media (max-width: 768px) {
+  .another-area {
+    padding: 90px 0 0 0;
+  }
+  .another-text {
+    padding-bottom: 30px;
+  }
+}

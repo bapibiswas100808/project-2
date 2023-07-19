@@ -1,0 +1,8 @@
+.message-area {
+  background-image: url(../../Images/projectback.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0;
+}

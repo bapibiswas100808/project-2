@@ -1,0 +1,30 @@
+.project-area {
+  background-image: url(../../Images/projectback.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 0 0;
+}
+
+.project-heading {
+  font-size: 65px !important;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .project-area {
+    padding: 90px 0 0 0;
+  }
+  .project-heading {
+    font-size: 32px !important;
+    text-align: center;
+  }
+  .project-text p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  .project-video {
+    padding-bottom: 30px;
+  }
+}

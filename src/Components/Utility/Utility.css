@@ -1,0 +1,8 @@
+.utility-area {
+  background-image: url(../../../src/Images/heroBackground.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+}

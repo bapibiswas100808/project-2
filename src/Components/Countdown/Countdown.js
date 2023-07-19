@@ -9,7 +9,7 @@ const Countdown = () => {
 
   let interval = useRef();
   const startTimer = () => {
-    const countDownDate = new Date("July 30, 2023 00:00:00").getTime();
+    const countDownDate = new Date("July 31, 2023 00:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -39,30 +39,30 @@ const Countdown = () => {
     <section className="timer-container">
       <div className="timer">
         <div>
-          <p>{timerDays}</p>
+          <p className="timer-unit">{timerDays}</p>
           <p>
             <small>Days</small>
           </p>
         </div>
         <span>:</span>
         <div>
-          <p>{timerHours}</p>
+          <p className="timer-unit">{timerHours}</p>
           <p>
-            <small>hours</small>
+            <small>Hrs</small>
           </p>
         </div>
         <span>:</span>
         <div>
-          <p>{timerMinutes}</p>
+          <p className="timer-unit">{timerMinutes}</p>
           <p>
-            <small>minutes</small>
+            <small>Min</small>
           </p>
         </div>
         <span>:</span>
         <div>
-          <p>{timerSeconds}</p>
+          <p className="timer-unit">{timerSeconds}</p>
           <p>
-            <small>seconds</small>
+            <small>Sec</small>
           </p>
         </div>
       </div>

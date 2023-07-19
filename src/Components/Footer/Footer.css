@@ -1,0 +1,12 @@
+.footer-area {
+  background-image: url(../../Images/footerback.png);
+  background-color: #050f10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+.footer-image {
+  height: 60px;
+  width: auto;
+}
