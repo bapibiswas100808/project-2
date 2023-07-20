@@ -6,3 +6,11 @@
   background-size: cover;
   padding-top: 100px;
 }
+.react-multi-carousel-dot {
+  display: none;
+}
+@media (max-width: 991px) {
+  .react-multi-carousel-dot {
+    display: inline-block;
+  }
+}
