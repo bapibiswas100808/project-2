@@ -10,7 +10,7 @@ const Countdown = () => {
   let interval = useRef();
   const startTimer = () => {
     const countDownDate = new Date("July 31, 2023 00:00:00").getTime();
-    interval = setInterval(() => {
+    interval.current = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
       const days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -22,18 +22,21 @@ const Countdown = () => {
 
       if (distance < 0) {
         clearInterval(interval.current);
-      } else setTimerDays(days);
-      setTimerHours(hours);
-      setTimerMinutes(minutes);
-      setTimerSeconds(seconds);
+      } else {
+        setTimerDays(days < 10 ? `0${days}` : days.toString());
+        setTimerHours(hours < 10 ? `0${hours}` : hours.toString());
+        setTimerMinutes(minutes < 10 ? `0${minutes}` : minutes.toString());
+        setTimerSeconds(seconds < 10 ? `0${seconds}` : seconds.toString());
+      }
     }, 1000);
   };
+
   useEffect(() => {
     startTimer();
     return () => {
       clearInterval(interval.current);
     };
-  });
+  }, []);
 
   return (
     <section className="timer-container">
