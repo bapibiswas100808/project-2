@@ -28,10 +28,47 @@
 .hero-para {
   position: absolute;
   width: 42%;
-  top: 95%;
+  top: 85%;
   z-index: 999;
 }
+/* @media (max-width: 1599px) {
+  .hero-para {
+    top: 75%;
+  }
+}
+ @media (max-width: 1399px) {
+  .hero-para {
+    top: 40%;
+  }
+}
 
+@media (max-width: 1340px) {
+  .hero-para {
+    top: 50%;
+  }
+} */
+@media (max-width: 1199px) {
+  .hero-para {
+    top: 37%;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-area {
+    text-align: center;
+  }
+  .hero-text-heading {
+    position: static;
+    width: 100%;
+  }
+  .hero-para {
+    position: static;
+    width: 100%;
+  }
+  .hero-text-heading::after {
+    height: 0px;
+  }
+}
 @media (max-width: 768px) {
   .hero-area {
     text-align: center;

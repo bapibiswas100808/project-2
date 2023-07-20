@@ -32,6 +32,16 @@ p {
 .project-sketch {
   padding: 0px 150px;
 }
+@media (max-width: 1399px) {
+  h1 {
+    font-size: 75px !important;
+  }
+}
+@media (max-width: 1199px) {
+  h1 {
+    font-size: 55px !important;
+  }
+}
 
 @media (max-width: 768px) {
   .project-sketch {

@@ -12,6 +12,12 @@
   padding-bottom: 30px;
 }
 
+@media (max-width: 1199px) {
+  .project-heading {
+    font-size: 32px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .project-area {
     padding: 90px 0 0 0;

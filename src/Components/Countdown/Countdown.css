@@ -17,13 +17,49 @@
   font-weight: 300;
 }
 .timer-container {
-  bottom: -350px;
+  bottom: -45%;
   position: absolute;
+  width: 400px;
 }
 
+/* @media (max-width: 1599px) {
+  .timer-container {
+    bottom: -150px;
+    width: 500px;
+  }
+} 
+
+ @media (max-width: 1399px) {
+  .timer-container {
+    bottom: 20%;
+    position: absolute;
+    width: 400px;
+  }
+}
+@media (max-width: 1340px) {
+  .timer-container {
+    bottom: 10%;
+    width: 375px;
+  }
+} */
+@media (max-width: 1199px) {
+  .timer-container {
+    bottom: 22%;
+    width: 275px;
+  }
+}
+
+@media (max-width: 991px) {
+  .timer-container {
+    position: static;
+    width: 100%;
+  }
+  .timer {
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .timer-container {
-    /* bottom: -400px; */
     position: static;
   }
 }

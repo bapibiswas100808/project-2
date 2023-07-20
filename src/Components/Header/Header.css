@@ -12,6 +12,15 @@
   text-align: end;
 }
 
+@media (max-width: 991px) {
+  .nav-logo {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .header-icon {
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   .nav-logo {
     text-align: center;
